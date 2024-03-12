@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SAMBU MOBILE MES</string>
+    <string name="action_setting">Settings</string>
+    <string name="action_homepage">Goto Web Site</string>
+    <string name="action_about">About</string>
+    <string name="noti">Notifications</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="agree">Agree with above and do not open it again.</string>
+    <string name="not_regd">잘못된 아이디 또는 패스워드를 입력하셨습니다.</string>
+    <string name="login_now">로그인을 요청중입니다...</string>
+    <string name="data_now">데이터를 요청중입니다...</string>
+</resources>

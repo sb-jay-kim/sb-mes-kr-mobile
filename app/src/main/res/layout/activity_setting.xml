@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="precategory"
+        android:title="개인 설정"
+        >
+        <CheckBoxPreference
+            android:title="아이디 저장"
+            android:key="auto_id"
+            />
+        <CheckBoxPreference
+            android:title="비밀번호 저장"
+            android:key="auto_pwd"
+            />
+        <CheckBoxPreference
+            android:title="자동 로그인"
+            android:key="auto_login"
+            />
+        <!-- 		<CheckBoxPreference
+                    android:title="지문인증"
+                    android:key="use_fingerprint"
+                    />
+                    -->
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="preconnect"
+        android:title="연결 설정"
+        >
+        <EditTextPreference
+            android:title="연결최대대기시간(5~60초)"
+            android:key="time_out"
+            android:inputType="number"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="preconnect"
+        android:title="바코드 스캔 설정"
+        >
+        <CheckBoxPreference
+            android:title="바코드 인식 카메라 사용"
+            android:key="use_camera"
+            />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
